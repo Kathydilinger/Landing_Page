@@ -1,5 +1,5 @@
 
-    header h1 {
+h1 {
     margin: 20px;
     font-style:oblique;
     font-weight:10px;
@@ -7,15 +7,26 @@
     font-size: xx-large;
     color: crimson;
     font-family: fantasy;
+    background-position:center center;
+}
+
+p{
+    background-position:center center;
+}
+
+header img{
+    background-size: cover;
+    padding: 100px;
 }
 
 header{
-    background-image: url("/assets/css/img/nolan\ fondo.webp");
+    background-image: url(./img/nolan.jpeg);
     text-align:center;
     background-position:center center;
     background-size:cover;
     height:200px;
     padding: 10px;
+    background-color: black;
 }
 header p{
 font-size: x-large;
